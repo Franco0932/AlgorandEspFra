@@ -29,7 +29,7 @@ algod_client = algod.AlgodClient(
 #Aquí lo hacemos para facilitar la explicación
 
 my_address = "TU DIRECCION"
-private_key = mnemonic.to_ private_key("Tu mnemónico de 25 palabras")
+private_key = mnemonic.to_private_key("Tu mnemónico de 25 palabras")
 
 #Verificando el balance de la cuenta
 
