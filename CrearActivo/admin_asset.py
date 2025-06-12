@@ -6,12 +6,12 @@ from algosdk.transaction import *
 
 # Aquí usamos mnemónicos que por seguridad no incluimos en el código
 
-mnemonic1 = "mnemonic1"
-mnemonic2 = "mnemonic2"
-mnemonic3 = "mnemonic3"
-address1 = "address1"
-address2 = "address2"
-address3 = "address3"
+mnemonic1 = "answer list copy crime gas napkin repeat spy caution total cart still myself injury skirt draw endorse earn large abstract bitter over antique absorb wreck"
+mnemonic2 = "dress promote orient plate match scrub hockey name smooth soup slogan differ estate nothing knee plug anger transfer execute odor wide around clip abandon taxi"
+mnemonic3 = "expose brass debate tone door belt drama ancient forum gravity welcome real wisdom village guilt fortune spatial digital prepare glue pottery glad candy able panther"
+address1 = "DGXRTCLWX7K757NLZCCQ5IHDMEM5MCVWMCBWNUVOTNG7VAR6YXXPNMZNBA"
+address2 = "RLQZ5UBHJ75VGRRZNLCJREFIZ2C6MJNLPKKC3ZUH4VR7KGFR7H6DOBIDZM"
+address3 = "56WTWPJVPTN36IB2YJ4N2L2RLIAWXOHCZ7EK5BCALCGBJMXD7NZRXR42BI"
 
 accounts = [address1, address2, address3]
 
@@ -84,8 +84,8 @@ txn = AssetConfigTxn(
     sp=params,
     total=1000,
     default_frozen=False,
-    unit_name="MIMONEDA",
-    asset_name="MiMoneda",
+    unit_name="TONAYANCOIN",
+    asset_name="TonyCoin",
     manager=accounts[1],
     reserve=accounts[1],
     freeze=accounts[1],
